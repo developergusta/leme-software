@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Leme Software — Consultoria de Implantação de Software</title>
+<meta name="description" content="Consultoria de implantação de software e desenvolvimento de programas de computador sob medida, em Suzano/SP. Criadora do ImplantaAI, gerador de planos de implantação.">
+<style>
+  :root{--bg:#0f1420;--panel:#171e2e;--line:#26304a;--txt:#eef1f7;--mut:#9aa7bd;--acc:#f59e0b;--acc2:#38bdf8}
+  *{box-sizing:border-box;margin:0;padding:0}
+  body{font-family:Inter,system-ui,-apple-system,Segoe UI,Roboto,sans-serif;background:var(--bg);color:var(--txt);line-height:1.6}
+  a{color:var(--acc2);text-decoration:none}
+  .wrap{max-width:1040px;margin:0 auto;padding:0 20px}
+  header{border-bottom:1px solid var(--line);position:sticky;top:0;background:rgba(15,20,32,.92);backdrop-filter:blur(8px);z-index:10}
+  .nav{display:flex;align-items:center;justify-content:space-between;padding:14px 0}
+  .brand{font-weight:800;font-size:20px;letter-spacing:.2px}.brand span{color:var(--acc)}
+  .nav nav a{color:var(--mut);margin-left:18px;font-size:14px}
+  @media(max-width:640px){.nav nav{display:none}}
+  .hero{padding:64px 0 40px}
+  .hero h1{font-size:40px;line-height:1.15;max-width:720px}
+  .hero h1 em{color:var(--acc);font-style:normal}
+  .hero p{color:var(--mut);max-width:640px;margin-top:16px;font-size:17px}
+  .cta{display:inline-block;margin-top:24px;background:var(--acc);color:#111;font-weight:700;padding:12px 22px;border-radius:10px}
+  .cta.ghost{background:transparent;color:var(--txt);border:1px solid var(--line);margin-left:10px}
+  section{padding:36px 0}
+  h2{font-size:26px;margin-bottom:8px} .sub{color:var(--mut);margin-bottom:20px;max-width:680px}
+  .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:14px}
+  .card{background:var(--panel);border:1px solid var(--line);border-radius:14px;padding:18px}
+  .card h3{font-size:16px;margin-bottom:6px}.card p{color:var(--mut);font-size:14px}
+  .tool{background:var(--panel);border:1px solid var(--line);border-radius:16px;padding:22px}
+  label{display:block;font-size:13px;color:var(--mut);margin:12px 0 6px}
+  select{width:100%;padding:11px;border-radius:10px;border:1px solid var(--line);background:#0f1420;color:var(--txt);font-size:15px}
+  .row{display:grid;grid-template-columns:1fr 1fr;gap:14px}@media(max-width:640px){.row{grid-template-columns:1fr}}
+  button.go{margin-top:18px;background:var(--acc);border:0;color:#111;font-weight:800;padding:12px 20px;border-radius:10px;cursor:pointer;font-size:15px}
+  button.copy{background:transparent;border:1px solid var(--line);color:var(--txt);padding:10px 16px;border-radius:10px;cursor:pointer;margin-top:12px}
+  #out{white-space:pre-wrap;background:#0f1420;border:1px solid var(--line);border-radius:12px;padding:16px;margin-top:18px;font-size:14px;display:none}
+  .tag{display:inline-block;border:1px solid var(--line);color:var(--mut);border-radius:999px;padding:3px 10px;font-size:12px;margin-right:6px}
+  footer{border-top:1px solid var(--line);padding:26px 0;color:var(--mut);font-size:13px;margin-top:30px}
+</style>
+</head>
+<body>
+<header><div class="wrap nav">
+  <div class="brand">Leme<span>Software</span></div>
+  <nav><a href="#servicos">Serviços</a><a href="#produto">ImplantaAI</a><a href="#sobre">Sobre</a><a href="#contato">Contato</a></nav>
+</div></header>
+
+<div class="wrap">
+  <div class="hero">
+    <h1>Implantação de software <em>sem dor de cabeça</em> para a sua empresa</h1>
+    <p>Consultoria de implantação e desenvolvimento de programas de computador sob medida, em Suzano/SP. Do levantamento ao treinamento da equipe: sistema no ar, gente usando, processo rodando.</p>
+    <a class="cta" href="#produto">Testar o ImplantaAI — gerador de plano</a>
+    <a class="cta ghost" href="#contato">Pedir uma conversa</a>
+  </div>
+
+  <section id="servicos">
+    <h2>Serviços</h2>
+    <p class="sub">Atividade registrada: elaboração de programas de computadores (CNAE de serviço 01.04.01, NFS-e — Suzano/SP).</p>
+    <div class="grid">
+      <div class="card"><h3>Implantação de sistemas</h3><p>Parametrização, migração de dados, testes, virada assistida e acompanhamento pós-go-live de ERPs, CRMs e sistemas de gestão.</p></div>
+      <div class="card"><h3>Software sob medida</h3><p>Sistemas web, catálogos online com carrinho e pedido por WhatsApp, buscadores sobre dados públicos e automações de rotina.</p></div>
+      <div class="card"><h3>Treinamento e suporte</h3><p>Capacitação da equipe no sistema novo, material de apoio simples e suporte na adaptação dos primeiros meses.</p></div>
+      <div class="card"><h3>Integrações e automação</h3><p>Conexão entre sistemas, planilhas e APIs para tirar retrabalho manual do dia a dia da operação.</p></div>
+    </div>
+  </section>
+
+  <section id="produto">
+    <h2>ImplantaAI — nosso produto</h2>
+    <p class="sub">Um gerador de plano de implantação: você informa o tipo de sistema e o tamanho da operação e ele monta fases, prazos estimados, checklist e riscos do projeto. É o MVP público da Leme Software — funciona agora, direto no navegador.</p>
+    <p style="margin-bottom:14px"><span class="tag">MVP no ar</span><span class="tag">Próxima etapa: gerar documentos e respostas com IA a partir da documentação de cada sistema</span></p>
+
+    <div class="tool">
+      <div class="row">
+        <div><label for="sistema">Tipo de sistema</label>
+          <select id="sistema">
+            <option value="ERP de gestão">ERP de gestão</option>
+            <option value="CRM / vendas">CRM / vendas</option>
+            <option value="PDV / frente de loja">PDV / frente de loja</option>
+            <option value="Catálogo / e-commerce">Catálogo / e-commerce</option>
+            <option value="Sistema sob medida">Sistema sob medida</option>
+          </select></div>
+        <div><label for="usuarios">Usuários do sistema</label>
+          <select id="usuarios">
+            <option value="1-5">1 a 5 pessoas</option>
+            <option value="6-20">6 a 20 pessoas</option>
+            <option value="21-50">21 a 50 pessoas</option>
+            <option value="50+">Mais de 50 pessoas</option>
+          </select></div>
+      </div>
+      <div class="row">
+        <div><label for="migracao">Precisa migrar dados do sistema atual?</label>
+          <select id="migracao"><option value="sim">Sim</option><option value="nao">Não</option></select></div>
+        <div><label for="treinamento">Treinamento da equipe entra no projeto?</label>
+          <select id="treinamento"><option value="sim">Sim</option><option value="nao">Não</option></select></div>
+      </div>
+      <button class="go" onclick="gerar()">Gerar meu plano de implantação</button>
+      <div id="out"></div>
+      <button class="copy" id="btnCopiar" style="display:none" onclick="copiar()">Copiar plano</button>
+    </div>
+  </section>
+
+  <section id="sobre">
+    <h2>Sobre</h2>
+    <p class="sub">A Leme Software é a consultoria de Gustavo Oliveira Leme, desenvolvedor e implantador de software em Suzano/SP. Trabalho direto, sem camadas: quem implanta é quem conversa com você. Entre os trabalhos recentes estão sistemas web de busca sobre bases públicas e catálogos de vendas online com pedido por WhatsApp.</p>
+  </section>
+
+  <section id="contato">
+    <h2>Contato</h2>
+    <p class="sub">E-mail: <a href="mailto:gustavo.oliveira.developer@gmail.com">gustavo.oliveira.developer@gmail.com</a><br>Suzano — São Paulo — Brasil</p>
+  </section>
+</div>
+
+<footer><div class="wrap">52.049.712 GUSTAVO OLIVEIRA LEME · CNPJ 52.049.712/0001-07 · MEI · Suzano/SP · © 2026 Leme Software</div></footer>
+
+<script>
+function gerar(){
+  var s=document.getElementById('sistema').value,
+      u=document.getElementById('usuarios').value,
+      m=document.getElementById('migracao').value,
+      t=document.getElementById('treinamento').value;
+  var base={'1-5':2,'6-20':4,'21-50':7,'50+':11}[u];
+  var fases=[['1. Levantamento e desenho do processo', Math.max(1,Math.round(base*0.5))+' semana(s)'],
+             ['2. Parametrização e configuração do '+s, base+' semana(s)']];
+  if(m==='sim') fases.push(['3. Migração e saneamento de dados', Math.max(1,Math.round(base*0.6))+' semana(s)']);
+  fases.push(['4. Testes com usuários-chave e ajustes', Math.max(1,Math.round(base*0.5))+' semana(s)']);
+  if(t==='sim') fases.push(['5. Treinamento da equipe', Math.max(1,Math.round(base*0.4))+' semana(s)']);
+  fases.push(['6. Virada (go-live) assistida e suporte inicial','2 semana(s)']);
+  var txt='PLANO DE IMPLANTAÇÃO — '+s+'\nUsuários: '+u+' · Migração de dados: '+m+' · Treinamento: '+t+'\nGerado pelo ImplantaAI — Leme Software (estimativa inicial, a detalhar no levantamento)\n\nFASES\n'+
+    fases.map(function(f){return '• '+f[0]+' — '+f[1];}).join('\n')+
+    '\n\nCHECKLIST ESSENCIAL\n• Responsável interno nomeado pelo projeto\n• Backup completo dos dados atuais antes da virada\n• Cadastro de usuários e perfis de acesso revisado\n• Ambiente de testes separado do de produção\n• Janela de virada combinada fora do horário de pico\n'+(m==='sim'?'• Amostra de dados migrados validada pelo usuário-chave\n':'')+
+    '\nRISCOS MAIS COMUNS\n• Resistência da equipe: mitigar com treinamento curto e por função\n• Dados antigos inconsistentes: saneamento antes, nunca durante a virada\n• Escopo crescer no meio do projeto: mudanças entram na fase seguinte, por escrito';
+  var out=document.getElementById('out'); out.textContent=txt; out.style.display='block';
+  document.getElementById('btnCopiar').style.display='inline-block';
+}
+function copiar(){
+  var txt=document.getElementById('out').textContent;
+  if(navigator.clipboard) navigator.clipboard.writeText(txt);
+  var b=document.getElementById('btnCopiar'); b.textContent='Plano copiado ✓'; setTimeout(function(){b.textContent='Copiar plano';},2000);
+}
+</script>
+</body>
+</html>
